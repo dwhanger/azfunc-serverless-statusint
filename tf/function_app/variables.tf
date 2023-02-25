@@ -121,7 +121,7 @@ variable "ADO_release_id" {
 
 variable "ADO_organization_url" {
   description = "the azure devops (tyeesoftware) url to the organization...which is the azx-tyeesoftware part"
-  default     = "https://dev.azure.com/tyeesoftware"
+  default     = ""
 }
 
 variable "ADO_project" {
@@ -131,7 +131,7 @@ variable "ADO_project" {
 
 variable "ADO_library_AZURE_APP_ISSUER" {
   description = "the azure devops (tyeesoftware) library variable for AZURE_APP_ISSUER"
-  default     = "https://sts.windows.net/3b217a9b-6c58-428b-b022-5ad741ce2016/"
+  default     = ""
 }
 
 variable "ADO_library_appsettings_AZURE_APP_TENANT_ID" {
@@ -166,37 +166,37 @@ variable "ADO_library_FUNCTIONS_WORKER_RUNTIME" {
 
 variable "ADO_library_loginData" {
   description = "the azure devops (tyeesoftware) library variable for loginData"
-  default     = "<Login><Login>dwhanger@microsoft.com</Login><Password>tyeesoftware@1234</Password></Login>"
+  default     = ""
 }
 
 variable "ADO_library_loginUrl" {
   description = "the azure devops (tyeesoftware) library variable for loginUrl"
-  default     = "https://www.alertsite.com/restapi/user/login"
+  default     = ""
 }
 
 variable "ADO_library_TimerRecipient" {
   description = "the azure devops (tyeesoftware) library variable for NotificationRecipient"
-  default     = "dwhanger@microsoft.com"
+  default     = ""
 }
 
 variable "ADO_library_NotificationSender" {
   description = "the azure devops (tyeesoftware) library variable for NotificationSender"
-  default     = "dwhanger@microsoft.com"
+  default     = ""
 }
 
 variable "ADO_library_slackApi" {
   description = "the azure devops (tyeesoftware) library variable for slackApi"
-  default     = "https://slack.com/api/chat.postMessage?"
+  default     = ""
 }
 
 variable "ADO_library_slackToken" {
   description = "the azure devops (tyeesoftware) library variable for slackToken"
-  default     = "xoxb-111503592262-525846040135-yzDGdIl6SBmnvFFg5zIQV2W2"
+  default     = ""
 }
 
 variable "ADO_library_statusUrl" {
   description = "the azure devops (tyeesoftware) library variable for statusUrl"
-  default     = "https://www.alertsite.com/restapi/devices/status"
+  default     = ""
 }
 
 variable "ADO_library_WEBSITE_NODE_DEFAULT_VERSION" {
