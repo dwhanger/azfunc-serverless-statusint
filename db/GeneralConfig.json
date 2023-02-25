@@ -1,0 +1,16 @@
+[
+	{
+		"Type": "Admin",
+		"Email_sender": "dwhanger@hotmail.com",
+		"Logging_level": "low",
+		"Queue_retry_count": 3,
+		"Update_interval":	3,
+		"Slack_notification": "Received a $(status) status for the endpoint $(url) at $(timestamp).",
+		"id": "a05a75fd-28b4-f60a-3505-0ca53f54c69c"
+	},
+	{
+		"Type": "DispatcherTick",
+		"tick": 0,
+        "id": "4fc0b8c0-f5a9-5e8f-4bf4-ce5cf547cfe7"
+	}
+]
